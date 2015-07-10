@@ -16,7 +16,7 @@ namespace IoCContainer
             return (T)Resolve(typeof(T));
         }
 
-        private object Resolve(Type typeToResolve)
+        public object Resolve(Type typeToResolve)
         {
             var registeredObject =registeredObjects.FirstOrDefault(o => o.TypeToResolve == typeToResolve);
             if (registeredObject == null)

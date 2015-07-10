@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCContainer", "IoCContaine
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCContainer.Test", "IoCContainer.Test\IoCContainer.Test.csproj", "{B78AFD48-8368-47EC-893A-C5DBF3A2215A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{5BE05778-F39B-4F7A-B476-7AA76EA97CAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B78AFD48-8368-47EC-893A-C5DBF3A2215A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B78AFD48-8368-47EC-893A-C5DBF3A2215A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B78AFD48-8368-47EC-893A-C5DBF3A2215A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE05778-F39B-4F7A-B476-7AA76EA97CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE05778-F39B-4F7A-B476-7AA76EA97CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE05778-F39B-4F7A-B476-7AA76EA97CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE05778-F39B-4F7A-B476-7AA76EA97CAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
