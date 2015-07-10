@@ -21,6 +21,10 @@ namespace Web.Infrastructure
 
         protected override IController GetControllerInstance(RequestContext requestContext, Type controllerType)
         {
+            if (controllerType == null)
+            {
+                throw new HttpException(404, "Page not found: " + requestContext.HttpContext.Request.Path);
+            }
 
             return container.Resolve(controllerType) as Controller;
         }
